@@ -1,0 +1,36 @@
+
+body{
+    background-color: lightgrey;
+}
+div{
+    margin: 10px;    
+    border-bottom: solid rgb(221, 220, 220) 1px;
+    background-color: white;
+    font-size: large;
+}
+
+.cabecera{
+    padding: 20px  ;
+    margin: 0;
+}
+.contenido{
+    margin: 0;
+    padding: 20px;
+}
+
+#aceptar{
+    background-color: rgb(2, 100, 248);
+    color: white;
+    border-style: none;
+    padding: 5px;
+}
+#cancelar{
+    background-color: grey;
+    color: white;
+    border-style: none;
+    padding: 5px;
+}
+.botones{
+    border-bottom: none;
+    padding-bottom: 0px;
+}

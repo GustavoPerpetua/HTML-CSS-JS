@@ -1,0 +1,35 @@
+body {
+    background-color: #eee;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    
+}
+
+#parrafo {
+    color: blue;
+    background-color: yellowgreen;
+    margin: 30px;
+    padding: 20px;
+    border: 4px brown;
+    border-radius: 20px;
+    border-style: dotted dashed solid double;
+    font-size: 50px;
+}
+
+.etiqueta{
+    color: brown;
+    padding: 10px;
+    border: blueviolet solid 3px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    border-style: double;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+         
+}
