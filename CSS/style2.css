@@ -1,0 +1,17 @@
+body{
+    background-color: #eee;
+}
+
+ul{
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 3px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
+    margin: 0;
+}
