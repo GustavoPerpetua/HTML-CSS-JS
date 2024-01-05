@@ -1,6 +1,23 @@
-body{
-    background-color: #eee;
+body {
+    background-color: #ddd;
 }
-p{
-    display: inline;
+
+table{
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+td{
+    border: 1px solid #ddd;
+    padding: 9px;
+}
+table th {
+    background-color: #4caf50;
+    color: white;
+    text-align: left;
+    padding: 12px 8px 12px 8px
 }

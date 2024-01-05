@@ -1,0 +1,15 @@
+body{
+    background-color: #eee;
+}
+
+img{
+    float: right;
+    
+}
+img:hover{
+    opacity: 0.7;
+}
+
+div p{
+    color: red;
+}
