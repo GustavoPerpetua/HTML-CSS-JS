@@ -1,0 +1,11 @@
+body{
+    width: 200px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between; 
+    height: 200px;
+    align-content: center;
+}

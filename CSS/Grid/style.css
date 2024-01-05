@@ -1,0 +1,19 @@
+body{
+    background-color: #eee;
+}
+
+.grid{
+    display:grid;
+    grid-template-rows: repeat(2, [row-inicio] 50px [row-fin]) ;
+    grid-template-columns: repeat(3, [col-inicio] 1fr [col-fin]);
+    grid-gap: 15px ;
+}
+
+.element{
+    background-color: red;
+}
+
+.header{
+    grid-column: col-inicio / col-fin 3 ;
+    grid-row: row-inicio / row-fin 3 ;
+}
