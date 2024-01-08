@@ -51,3 +51,7 @@ const arr = [1,2,"hola" ,miObjeto]
 console.log(arr);
 arr.push(15)
 console.log(arr);
+
+// const a  diferencia de  let no permite cambiar su valor 
+
+// or || and && not !
