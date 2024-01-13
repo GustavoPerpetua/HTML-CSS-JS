@@ -1,19 +1,27 @@
 const express = require("express");
+const mongoose = require("mongoose");
 const user = require("./user.controller");
 const app = express();
 const port = 3000;
 
-app.get("/", user.list);
+app.use(express.json());
 
-app.post("/", user.create);
+mongoose.connect(
+  "mongodb+srv://gustavoaperpe:Puli122221@cluster0.ik1nith.mongodb.net/miapp?retryWrites=true&w=majority"
+);
 
-app.get("/:id", user.get);
+app.get("/users", user.list);
+app.post("/users", user.create);
+app.get("/users/:id", user.get);
+app.put("/users/:id", user.update);
+app.patch("/users/:id", user.update);
+app.delete("/users/:id", user.destroy);
 
-app.put("/:id", user.update);
+app.use(express.static("app"));
 
-app.patch("/:id", user.update);
-
-app.delete("/:id", user.destroy);
+app.get("/", (req, res) => {
+  res.sendFile(`${__dirname}/index.html`);
+});
 
 app.get("*", (req, res) => {
   res.status(404).send("esta paguina no existe");
